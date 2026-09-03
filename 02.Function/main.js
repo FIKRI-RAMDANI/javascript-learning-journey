@@ -75,3 +75,17 @@ const luasJajarGenjang = (alas , tinggi) => {
 }
 
 console.log("Luas Jajar Genjang = ", luasJajarGenjang(10, 8))
+
+
+// 2. MENGHITUNG TOTAL GAJI YANG DI DAPAT DALAM SATU BULAN
+// DENGAN INPUT MINIMAL:
+//     - NAMA KARYAWAN
+//     - GAJI PERHARI
+//     - JUMLAH HARI MASUK KERJA
+
+function totalgaji(nama, gaji, masuk) {
+    const total = gaji * masuk
+    console.log(`Total gaji ${nama} = Rp${total}`)
+}
+
+totalgaji('Fikri', 10000, 20)
